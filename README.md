@@ -20,10 +20,12 @@ When training ESA-PINNs-PT with 3 subdomains, higher precision is achieved, yiel
 
 2.
 For the second-order rogue wave simulation, training ESA-PINNs-PT with 3 or more subdomains is necessary to ensure high precision, as single-subdomain training fails to achieve sufficient accuracy.
+
 5 subdomains and $20000$ (or $10000$) residual points are employed to address the more complex characteristics of the second-order rogue wave.
+
 8 tests are also conducted to validate the robustness of ESA-PINNs-PT by varying the random seed using $20000$ residual points, which achieve RL2 error of (3.87 $\pm$ 1.06)e-5$.
 
-3.
+4.
 Software execution:
 
 python main.py (run code)
