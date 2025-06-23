@@ -2,7 +2,7 @@
 
 Comment on "Mix-training physics-informed neural networks for the rogue waves of nonlinear Schrödinger equation" [Chaos, Solitons and Fractals 164 (2022) 112712]}.
 
-An alternative approach for handling PDEs with sharp gradients is the self-adaptive PINNs (SA-PINNs) method.
+We propose enhanced self-adaptive PINNs with partition training (ESA-PINNs-PT) to extend the work presented in the commented paper, achieving significantly higher accuracy in resolving rogue wave solutions of the Schrödinger equation.
 
 # 1.
 For the first-order rogue wave simulation, a relative $L_2$-norm (RL2) error of 3.20e-5 is achieved, which is over an order of magnitude lower than the error reported for the MTPINNs PLUS model (4.94e-4).
@@ -11,8 +11,6 @@ The following two videos illustrate the evolution of self-adaptive weights durin
 
 ![Video](https://github.com/wickweidr/ESA-PINNs-PT/blob/main/sa-sch-anim-u.gif)
 ![Video](https://github.com/wickweidr/ESA-PINNs-PT/blob/main/sa-sch-anim-v.gif)
-
-We further propose enhanced SA-PINNs with partition training (ESA-PINNs-PT) to extend the work presented in the commented paper, achieving significantly higher accuracy in resolving rogue wave solutions of the Schrödinger equation.
 
 8 tests are conducted to validate the robustness of ESA-PINNs-PT with 1 subdomain by varying the random seed using 10000 residual points, which achieve RL2 error of (3.98 $\pm$ 1.35)e-5.
 
