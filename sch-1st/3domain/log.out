@@ -1,7 +1,3 @@
-nohup: ignoring input
-Data_flie is not Exists
-figures is not Exists
-self.u0.shape=  torch.Size([256, 1])
 NeuralNet(
   (network): Sequential(
     (0): Linear(in_features=2, out_features=48, bias=True)
@@ -16,18 +12,6 @@ NeuralNet(
   )
 )
 starting Adam training
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:153: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  x0_batch = torch.tensor(self.x0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:154: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  t0_batch = torch.tensor(self.t0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:155: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  u0_batch = torch.tensor(self.u0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:156: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  v0_batch = torch.tensor(self.v0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:160: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  x_f_batch = torch.tensor(self.x_f[i*batch_sz:(i*batch_sz + batch_sz),], dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:161: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  t_f_batch = torch.tensor(self.t_f[i*batch_sz:(i*batch_sz + batch_sz),], dtype=torch.float32)
 It: 100, Time: 3.40, mse_0: 3.5375e+02, mse_f: 2.2740e+02, total loss: 6.7245e+02, Error u,v: 3.3145e-01, 7.3006e-01
 It: 200, Time: 2.49, mse_0: 2.0063e+02, mse_f: 1.4989e+02, total loss: 4.5467e+02, Error u,v: 2.4804e-01, 5.6648e-01
 It: 300, Time: 2.30, mse_0: 1.3021e+02, mse_f: 1.5871e+02, total loss: 3.3626e+02, Error u,v: 2.3968e-01, 5.6579e-01
@@ -179,18 +163,6 @@ It: 14800, Time: 2.32, mse_0: 1.8141e-02, mse_f: 2.7755e-01, total loss: 3.5234e
 It: 14900, Time: 2.48, mse_0: 1.6721e-02, mse_f: 1.8331e-01, total loss: 2.4541e-01, Error u,v: 9.0465e-04, 1.6473e-03
 It: 15000, Time: 2.57, mse_0: 1.3460e-02, mse_f: 9.1427e-02, total loss: 1.1948e-01, Error u,v: 8.7251e-04, 1.5017e-03
 starting L-BFGS training
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:225: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  x0_batch = torch.tensor(self.x0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:226: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  t0_batch = torch.tensor(self.t0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:227: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  u0_batch = torch.tensor(self.u0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:228: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  v0_batch = torch.tensor(self.v0, dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:232: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  x_f_batch = torch.tensor(self.x_f[i*batch_sz:(i*batch_sz + batch_sz),], dtype=torch.float32)
-/home/ub20/02/actorch/sch-21/sch-2012-2022/t1.5-x20/tx-2-nf5k/verify-git/sch-1st/3domain/ESA_PINN_PT.py:233: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-  t_f_batch = torch.tensor(self.t_f[i*batch_sz:(i*batch_sz + batch_sz),], dtype=torch.float32)
 It: 100, Time: 3.44, mse_0: 1.0993e-04, mse_f: 1.2879e-02, total loss: 1.3786e-02, Error u,v: 2.1145e-04, 2.9969e-04
 It: 200, Time: 4.73, mse_0: 7.9019e-05, mse_f: 1.0822e-02, total loss: 1.1601e-02, Error u,v: 2.1983e-04, 2.5509e-04
 It: 300, Time: 4.63, mse_0: 1.0819e-04, mse_f: 8.9480e-03, total loss: 9.6904e-03, Error u,v: 2.4842e-04, 3.0006e-04
@@ -443,11 +415,9 @@ It: 24900, Time: 5.12, mse_0: 7.1657e-07, mse_f: 3.9171e-05, total loss: 4.1680e
 It: 25000, Time: 5.01, mse_0: 7.1657e-07, mse_f: 3.9171e-05, total loss: 4.1680e-05, Error u,v: 7.2350e-06, 9.9524e-06
 Error u: 7.234987e-06
 Error v: 9.952408e-06
-u0_t.shape =  (257,)
 Error u: 7.234987e-06
 Error v: 9.952408e-06
 u_pred.shape after=  (257, 51)
-self.u0.shape=  torch.Size([256, 1])
 NeuralNet(
   (network): Sequential(
     (0): Linear(in_features=2, out_features=48, bias=True)
@@ -815,11 +785,9 @@ It: 19900, Time: 4.96, mse_0: 7.5894e-06, mse_f: 2.2224e-04, total loss: 2.4594e
 It: 20000, Time: 4.64, mse_0: 7.7554e-06, mse_f: 2.2118e-04, total loss: 2.4512e-04, Error u,v: 2.2089e-05, 1.9658e-05
 Error u: 2.208894e-05
 Error v: 1.965832e-05
-u0_t.shape =  (257,)
 Error u: 1.574399e-05
 Error v: 1.661851e-05
 u_pred.shape after=  (257, 101)
-self.u0.shape=  torch.Size([256, 1])
 NeuralNet(
   (network): Sequential(
     (0): Linear(in_features=2, out_features=48, bias=True)
@@ -1087,7 +1055,6 @@ It: 14900, Time: 7.84, mse_0: 4.9897e-06, mse_f: 6.7087e-05, total loss: 7.6830e
 It: 15000, Time: 7.33, mse_0: 4.9393e-06, mse_f: 6.6728e-05, total loss: 7.6228e-05, Error u,v: 2.9120e-05, 4.3328e-05
 Error u: 2.912030e-05
 Error v: 4.332811e-05
-u0_t.shape =  (257,)
 Error u: 2.147777e-05
 Error v: 2.697037e-05
 Error h: 1.886028e-05
