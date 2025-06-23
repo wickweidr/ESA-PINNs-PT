@@ -4,17 +4,19 @@ Comment on "Mix-training physics-informed neural networks for the rogue waves of
 
 An alternative approach for handling PDEs with sharp gradients is the self-adaptive PINNs (SA-PINNs) method.
 
-We propose enhanced SA-PINNs with partition training (ESA-PINNs-PT) to extend the work presented in the commented paper, achieving significantly higher accuracy in resolving rogue wave solutions of the Schrödinger equation.
-
 1.
 For the first-order rogue wave simulation, a relative $L_2$-norm (RL2) error of 3.20e-5 is achieved, which is over an order of magnitude lower than the error reported for the MTPINNs PLUS model (4.94e-4).
-
-8 tests are conducted to validate the robustness of ESA-PINNs-PT by varying the random seed using 10000 residual points, which achieve RL2 error of (3.98 $\pm$ 1.35)e-5.
 
 The following two videos illustrate the evolution of self-adaptive weights during the training process with Adam optimizer for solving the first-order rogue wave solution of the Schrödinger equation.
 
 ![Video](https://github.com/wickweidr/SchrodingerEq/blob/main/sa-sch-anim-u.gif)
 ![Video](https://github.com/wickweidr/SchrodingerEq/blob/main/sa-sch-anim-v.gif)
+
+We further propose enhanced SA-PINNs with partition training (ESA-PINNs-PT) to extend the work presented in the commented paper, achieving significantly higher accuracy in resolving rogue wave solutions of the Schrödinger equation.
+
+8 tests are conducted to validate the robustness of ESA-PINNs-PT with 1 subdomain by varying the random seed using 10000 residual points, which achieve RL2 error of (3.98 $\pm$ 1.35)e-5.
+
+When training ESA-PINNs-PT with 3 subdomains, higher precision is achieved, yielding the RL2 error of (2.48 $\pm$ 0.38)e-5$ across 8 random tests.
 
 2.
 The second-order rogue wave solution of the Schrödinger equation, as presented in [Phys. Rev. E 85, 026607 (2012)], is accurately resolved using the enhanced SA-PINNs combined with a time-domain decomposition method. The corresponding contour plots are provided in sch12-2nd-t2x3-jet.pdf.
