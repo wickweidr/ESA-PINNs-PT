@@ -7,7 +7,7 @@ An alternative approach for handling PDEs with sharp gradients is the self-adapt
 We propose enhanced SA-PINNs with partition training (ESA-PINNs-PT) to extend the work presented in the commented paper, achieving significantly higher accuracy in resolving rogue wave solutions of the Schrödinger equation.
 
 1.
-For the first-order rogue wave simulation, a relative $L_2$-norm (RL2) error of $3.20 \mathrm{e}-5$ is achieved, which is over an order of magnitude lower than the error reported for the MTPINNs PLUS model ($4.94\times 10^{-4}$).
+For the first-order rogue wave simulation, a relative $L_2$-norm (RL2) error of 3.20 e-5 is achieved, which is over an order of magnitude lower than the error reported for the MTPINNs PLUS model ($4.94\times 10^{-4}$).
 
 8 tests are conducted to validate the robustness of ESA-PINNs-PT by varying the random seed using 10000 residual points, which achieve RL2 error of $(3.98 \pm 1.35) \mathrm{e}-5$.
 
