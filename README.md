@@ -9,8 +9,8 @@ For the first-order rogue wave simulation, a relative $L_2$-norm (RL2) error of 
 
 The following two videos illustrate the evolution of self-adaptive weights during the training process with Adam optimizer for solving the first-order rogue wave solution of the Schrödinger equation.
 
-![Video](https://github.com/wickweidr/SchrodingerEq/blob/main/sa-sch-anim-u.gif)
-![Video](https://github.com/wickweidr/SchrodingerEq/blob/main/sa-sch-anim-v.gif)
+![Video](https://github.com/wickweidr/ESA-PINNs-PT/blob/main/sa-sch-anim-u.gif)
+![Video](https://github.com/wickweidr/ESA-PINNs-PT/blob/main/sa-sch-anim-v.gif)
 
 We further propose enhanced SA-PINNs with partition training (ESA-PINNs-PT) to extend the work presented in the commented paper, achieving significantly higher accuracy in resolving rogue wave solutions of the Schrödinger equation.
 
