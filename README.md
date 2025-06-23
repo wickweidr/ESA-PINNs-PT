@@ -4,7 +4,7 @@ Comment on "Mix-training physics-informed neural networks for the rogue waves of
 
 An alternative approach for handling PDEs with sharp gradients is the self-adaptive PINNs (SA-PINNs) method.
 
-1.
+# 1.
 For the first-order rogue wave simulation, a relative $L_2$-norm (RL2) error of 3.20e-5 is achieved, which is over an order of magnitude lower than the error reported for the MTPINNs PLUS model (4.94e-4).
 
 The following two videos illustrate the evolution of self-adaptive weights during the training process with Adam optimizer for solving the first-order rogue wave solution of the Schrödinger equation.
