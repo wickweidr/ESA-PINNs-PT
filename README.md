@@ -19,10 +19,9 @@ We further propose enhanced SA-PINNs with partition training (ESA-PINNs-PT) to e
 When training ESA-PINNs-PT with 3 subdomains, higher precision is achieved, yielding the RL2 error of (2.48 $\pm$ 0.38)e-5$ across 8 random tests.
 
 2.
-The second-order rogue wave solution of the Schrödinger equation, as presented in [Phys. Rev. E 85, 026607 (2012)], is accurately resolved using the enhanced SA-PINNs combined with a time-domain decomposition method. The corresponding contour plots are provided in sch12-2nd-t2x3-jet.pdf.
-
-For the second-order rogue wave simulation, the time domain is partitioned into five uniform subdomains, with at least three subdomains required to achieve high-accuracy predictions.
-Training a single neural network over the entire domain fails to yield correct results, indicating the necessity of domain decomposition. 
+For the second-order rogue wave simulation, training ESA-PINNs-PT with 3 or more subdomains is necessary to ensure high precision, as single-subdomain training fails to achieve sufficient accuracy.
+5 subdomains and $20000$ (or $10000$) residual points are employed to address the more complex characteristics of the second-order rogue wave.
+8 tests are also conducted to validate the robustness of ESA-PINNs-PT by varying the random seed using $20000$ residual points, which achieve RL2 error of (3.87 $\pm$ 1.06)e-5$.
 
 3.
 Software execution:
