@@ -17,7 +17,7 @@ The following two videos illustrate the evolution of self-adaptive weights durin
 When training ESA-PINNs-PT with 3 partitions, higher precision is achieved, yielding the RL2 error of (2.48 $\pm$ 0.38)e-5 across 8 random tests.
 
 # 2.
-For the second-order rogue wave simulation, training ESA-PINNs-PT with 3 or more partitions is necessary to ensure high precision, as single-partition training fails to achieve sufficient accuracy.
+For the second-order rogue wave simulation, training ESA-PINNs-PT with 3 or more partitions is necessary to ensure high precision, as single partition training fails to achieve sufficient accuracy.
 
 5 partitions and 20000 (or 10000) residual points are employed to address the more complex characteristics of the second-order rogue wave.
 
