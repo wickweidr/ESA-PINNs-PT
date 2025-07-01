@@ -1,1 +1,1 @@
-second-order rogue wave
+High accuracy in the second-order rogue wave simulation is achieved using five partitions, whereas using a single partition results in significantly lower prediction accuracy.
