@@ -12,14 +12,14 @@ The following two videos illustrate the evolution of self-adaptive weights durin
 ![Video](https://github.com/wickweidr/ESA-PINNs-PT/blob/main/sa-sch-anim-u.gif)
 ![Video](https://github.com/wickweidr/ESA-PINNs-PT/blob/main/sa-sch-anim-v.gif)
 
-8 tests are conducted to validate the robustness of ESA-PINNs-PT with 1 subdomain by varying the random seed using 10000 residual points, which achieve RL2 error of (3.98 $\pm$ 1.35)e-5.
+8 tests are conducted to validate the robustness of ESA-PINNs-PT with 1 partition by varying the random seed using 10000 residual points, which achieve RL2 error of (3.98 $\pm$ 1.35)e-5.
 
-When training ESA-PINNs-PT with 3 subdomains, higher precision is achieved, yielding the RL2 error of (2.48 $\pm$ 0.38)e-5 across 8 random tests.
+When training ESA-PINNs-PT with 3 partitions, higher precision is achieved, yielding the RL2 error of (2.48 $\pm$ 0.38)e-5 across 8 random tests.
 
 # 2.
-For the second-order rogue wave simulation, training ESA-PINNs-PT with 3 or more subdomains is necessary to ensure high precision, as single-subdomain training fails to achieve sufficient accuracy.
+For the second-order rogue wave simulation, training ESA-PINNs-PT with 3 or more partitions is necessary to ensure high precision, as single-partition training fails to achieve sufficient accuracy.
 
-5 subdomains and 20000 (or 10000) residual points are employed to address the more complex characteristics of the second-order rogue wave.
+5 partitions and 20000 (or 10000) residual points are employed to address the more complex characteristics of the second-order rogue wave.
 
 8 tests are also conducted to validate the robustness of ESA-PINNs-PT by varying the random seed using 20000 residual points, which achieve RL2 error of (3.87 $\pm$ 1.06)e-5.
 
